@@ -33,3 +33,7 @@ input.search-input{
   border: 0px solid #00000000;
   background-color: #ffffff;
 }
+
+input.hx-bg-white:focus{
+  background-color: rgb(36, 204, 251);
+}
