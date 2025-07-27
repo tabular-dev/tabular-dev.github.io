@@ -6,8 +6,8 @@ layout: hextra-home
 {{< hextra/hero-container
   image="images/portrait.svg"
   imageClass="hx-block hx-overflow-hidden hx-rounded-3xl"
-  imageWidth="300" imageHeight="300"
-  imageTitle="AXIVO"
+  imageWidth="600" imageHeight="600"
+  imageTitle="Chris"
 >}}
 <div class="hx-mt-12 hx-mb-6">
 {{< hextra/hero-headline >}}
