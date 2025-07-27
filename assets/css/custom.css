@@ -28,3 +28,8 @@ a.hx-hidden{
 button.hamburger-menu {
   color: #ffffff;
 }
+
+input.search-input{
+  border: 0px solid #00000000;
+  background-color: #ffffff;
+}
