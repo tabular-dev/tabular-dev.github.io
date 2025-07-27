@@ -19,6 +19,12 @@ a.hx-text-sm:hover{
   color: #b3c7fb;
 }
 
+/* The links in the menu needs to be white */
 a.hx-hidden{
   color: white;
+}
+
+/* Hamburger menu needs to be white instead of black */
+button.hamburger-menu {
+  color: #ffffff;
 }
