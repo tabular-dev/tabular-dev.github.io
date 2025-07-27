@@ -13,3 +13,8 @@ span, input, a, p, div, h1, .content h1,
 a.hx-flex:hover{
   opacity: 1;
 }
+
+/* The link in the menu must change to light blue on hover */
+a.hx-text-sm:hover{
+  color: #b3c7fb;
+}
