@@ -18,3 +18,8 @@ a.hx-flex:hover{
 a.hx-text-sm:hover{
   color: #b3c7fb;
 }
+
+/* The links must be white */
+button.hamburger-menu {
+  color: #ffffff;
+}
