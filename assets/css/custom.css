@@ -8,3 +8,8 @@ span, input, a, p, div, h1, .content h1,
 .content h3 {
   font-family: "neue-haas-unica";
 }
+
+/* Logo should not chage on hover */
+a.hx-flex:hover{
+  opacity: 1;
+}
