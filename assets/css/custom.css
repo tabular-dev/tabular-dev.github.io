@@ -1,3 +1,10 @@
 .nav-container-blur{
   background-color: #4274f6;
 }
+
+span, input, a, p, div, h1, .content h1,
+.content h2,
+.content h3,
+.content h3 {
+  font-family: "neue-haas-unica";
+}
