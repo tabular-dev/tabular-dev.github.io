@@ -24,7 +24,7 @@ layout: hextra-home
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-subtitle >}}
-  Get help to build elegant semantic models that empowers people to 
+  Chris helps you to build elegant semantic models that empowers people to 
   make decisions for a better future.
 {{< /hextra/hero-subtitle >}}
 </div>
