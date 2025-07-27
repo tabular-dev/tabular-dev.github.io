@@ -9,8 +9,7 @@ layout: hextra-home
 >}}
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  SELECTEDVALUE
-  for developers
+  SELECTEDVALUE <br> for developers
 {{< /hextra/hero-headline >}}
 </div>
 
