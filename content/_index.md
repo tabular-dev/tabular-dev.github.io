@@ -4,7 +4,7 @@ layout: hextra-home
 ---
 
 {{< hextra/hero-container
-  image="images/logo_github.svg"
+  image="images/chris.svg"
   imageTitle="Chris"
 >}}
 <div class="hx-mt-12 hx-mb-6">
