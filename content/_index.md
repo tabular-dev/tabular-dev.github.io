@@ -27,3 +27,4 @@ layout: hextra-home
   make decisions for a better future.
 {{< /hextra/hero-subtitle >}}
 </div>
+{{< /hextra/hero-container >}}
