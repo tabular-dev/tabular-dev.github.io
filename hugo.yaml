@@ -53,10 +53,10 @@ params:
       width: 200
 
   footer:
-    enable: true
+    enable: false
     displayCopyright: false
     displayPoweredBy: false
-    switchesVisible: true
+    switchesVisible: false
 
   editURL:
     enable: true
