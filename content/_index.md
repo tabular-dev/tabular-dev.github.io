@@ -13,7 +13,7 @@ layout: hextra-home
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mt-6 hx-mb-6">
+<div style="padding-left: 20%;" class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-subtitle >}}
   👋 Welcome to TABULAR
 {{< /hextra/hero-subtitle >}}
