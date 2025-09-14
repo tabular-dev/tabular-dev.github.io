@@ -7,7 +7,7 @@ layout: hextra-home
   image="images/chris.svg"
   imageTitle="Chris"
 >}}
-<div class="hx-mt-6 hx-mb-6">
+<div style="padding-left: 20%;" class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
   SELECTEDVALUE for developers
 {{< /hextra/hero-headline >}}
@@ -19,7 +19,7 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mt-6 hx-mb-6">
+<div style="padding-left: 20%;" class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-subtitle >}}
   Chris helps you to build <i>elegant</i> semantic models that empowers people to make the right decisions.
 {{< /hextra/hero-subtitle >}}
