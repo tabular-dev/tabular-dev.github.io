@@ -7,7 +7,7 @@ layout: hextra-home
   image="images/chris.svg"
   imageTitle="Chris"
 >}}
-<div style="text-align: center;" class="hx-mt-6 hx-mb-6">
+<div style="width: 300px; margin: 0 auto;" class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
   SELECTEDVALUE for developers
 {{< /hextra/hero-headline >}}
