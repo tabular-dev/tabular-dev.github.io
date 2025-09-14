@@ -23,6 +23,7 @@ layout: hextra-home
 {{< hextra/hero-subtitle >}}
   Chris helps you to build <i>elegant</i> semantic models that empowers people to make the right decisions.
 {{< /hextra/hero-subtitle >}}
+  
 {{< hextra/hero-subtitle >}}
   Please stay tuned for upcoming training opportunities.
 {{< /hextra/hero-subtitle >}}
