@@ -18,7 +18,7 @@ Estibulum, phasellu sg r avidafinibu-snul lamaeneanve hiculalo remi psumdo lor s
 
 Ibu Lumphas Ellusg Ravidafini (BUS) nu ll am‑aenean vehicula lorem ipsu md Olorsita, Metc 2on, sec Tetura, Dipi 3sc, 2026, in GELITS Ecteturf Elisnib, hvulput atemat Tisquisal Iqu Etmaurisurn. Aor ciluc tusves tibulumph asellu sgravidafin, ibusnu ll amaene anvehicula lore mipsum Dolors ita met cons ec tet uradi.
 
-{{< cards >}}
+{{< cards cols="3" >}}
   {{< card link="/" title="No Icon" >}}
   {{< card link="/" title="No Icon" >}}
   {{< card link="/" title="No Icon" >}}
