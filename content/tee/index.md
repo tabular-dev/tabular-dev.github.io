@@ -94,8 +94,6 @@ Sg rav idafi nib, us null ama eneanv ehi cula lorem i psumdolo rsitamet conse ct
 
 {{% /steps %}}
 
-{{% /details %}}
-
 
 
 
