@@ -18,6 +18,10 @@ markup:
 
 menu:
   main:
+    - identifier: tee
+      name: Tabular Editor Experience
+      pageRef: /tee
+      weight: 1
     - name: GitHub
       weight: 5
       url: "https://github.com/tabular-dev"
