@@ -34,6 +34,22 @@ Teturfe lis nibh, vulp utate ma ttisquisal iq uet mau risur naorc iluctusvest. I
 
 aor 8 cluck tus vestibulu. Mp hasellu sgr avida finib, U snu llamaen e anvehicu laloremips umd olor sit am etco nsectetur.
 
+{{% steps %}}
+
+### Mau 1: Risurna or c iluct
+
+- Usvestibul Umphase Llusgr 3 (AV3) idafinibu.
+- Snullamaen ean-ve hic ulaloremip su mdolorsi tametc on Secte TU ra Dipisc.
+- Ing el itsecte tu “Rfeli” sni “Bhvulp” utatem attis “quisal iquetmauris”.
+
+### Urn 2: Aorc ilu ctusves ti bulumpha sellu
+
+- Sgr av idafinib u snull ama ene anv EHI Culalore. 
+- Mip su mdol o rsita metcons (ectetu rad ipiscingelits).
+- Ect et urfe lisni bhvu lput Atematt isqu is Aliqu Etmau.
+
+{{% /steps %}}
+
 {{% /details %}}
 
 
