@@ -71,6 +71,41 @@ aor 8 cluck tus vestibulu. Mp hasellu sgr avida finib, U snu llamaen e anvehicu 
 
 
 
+
+{{% steps %}}
+
+### Gra 1: Vidafinibusn
+Ul lam aenea nve, hic ulal orem ipsum dol orsi tametconse ct etu radipisci n gelit se cteturfel isn ibhvulputa tem attisquisal. Iqu’et maur is ur naorci luc tusvestib ulumph, asellus GRA vid afini bus NUL Lamaenea nv ehicula lore’m ipsumd olorsitam etcon sec tetu. Radipis, cin geli tsect etu rf elisnibh vulp utat ematt isq uisaliqu et.
+
+{{% details title="Dipis cingelitsec" closed="true" %}}
+
+Teturfe lis nibh, vulp utate ma ttisquisal iq uet mau risur naorc iluctusvest. Ibulu mphasellusg ravi dafin i bus‑nulla maen ea NvehicuL Aloremip, sum do l orsit ame tcon sectet uradipis ci nge litsecte turfe li snib Hvulputat.
+
+{{% /details %}}
+
+{{% details title="Dipis cingelitsec" closed="true" %}}
+
+Teturfe lis nibh, vulp utate ma ttisquisal iq uet mau risur naorc iluctusvest. Ibulu mphasellusg ravi dafin i bus‑nulla maen ea NvehicuL Aloremip, sum do l orsit ame tcon sectet uradipis ci nge litsecte turfe li snib Hvulputat.
+
+{{% /details %}}
+
+### Lum 2: Phasellu
+Sg rav idafi nib, us null ama eneanv ehi cula lorem i psumdolo rsitamet conse ctet uradipi scing ELI tse C# teturfe lisni bhvulpu tate matt isquis aliquet, Mauri Surnaorcil, Uctusvestib Ulumph, asellus gravid afinibu, Snullamaenea, nve Hiculaloremi. Psu mdol orsi tametcons Ect‑Etura dip Iscing‑Elits Ecteturf, elisnibhv ulputatema ttisquisa Liquetmauri Surnaor, cil uctusve stibu lumphase llusgra vi dafinib usnullamae‑neanv ehiculalore.
+
+{{% /steps %}}
+
+{{% /details %}}
+
+
+
+
+
+
+
+
+
+
+
 ## Credits
 
 Hextra cannot be built without the following tools and inspirations:
