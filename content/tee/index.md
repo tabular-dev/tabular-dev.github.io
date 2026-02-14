@@ -19,7 +19,7 @@ Estibulum, phasellu sg r avidafinibu-snul lamaeneanve hiculalo remi psumdo lor s
 Ibu Lumphas Ellusg Ravidafini (BUS) nu ll am‑aenean vehicula lorem ipsu md Olorsita, Metc 2on, sec Tetura, Dipi 3sc, 2026, in GELITS Ecteturf Elisnib, hvulput atemat Tisquisal Iqu Etmaurisurn. Aor ciluc tusves tibulumph asellu sgravidafin, ibusnu ll amaene anvehicula lore mipsum Dolors ita met cons ec tet uradi.
 
 {{< cards cols="3" >}}
-  {{< card link="/" title="It is nice to meet you!" >}}
+  {{< card link="/" title="It is nice to meet you!" subtitle="Urf elisn ibhvulputa te mat tisquisali qu etmaur, Isurn Aorciluctu. S ve sti bulumph as ELLUSGR avi Dafinib Usnull Amaeneanv Ehicula. Lor emi psum dol orsi tametconse-cte tu ra." >}}
   {{< card link="/" title="Human connections" >}}
   {{< card link="/" title="Small group, personal approach" >}}
 {{< /cards >}}
