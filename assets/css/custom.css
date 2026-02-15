@@ -126,7 +126,7 @@ label.tito-address-fields-address-label {
 }
 
 input:focus{
-  outline: 3px solid #b3c7fb !important; 
+  outline: 2px solid #b3c7fb !important; 
 }
 
 tito-widget .tito-release--decrement-quantity--link svg path,
