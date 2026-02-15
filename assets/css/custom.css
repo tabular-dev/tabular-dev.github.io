@@ -92,6 +92,10 @@ h2.tito-registration-section-header--heading {
   font-weight: normal !important;
 }
 
+h2.tito-address-fields-title {
+  font-weight: normal !important;
+}
+
 td.tito-registration-summary--total {
   font-weight: normal !important;
 }
