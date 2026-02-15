@@ -45,9 +45,9 @@ tito-widget button {
   background: #4274f6;
 }
 
-.tito-widget-button {
+button.tito-submit {
   background-color: #ff0000 !important; /* Your new color */
-  color: #ffffff !important;            /* Text color */
+  color: #000000 !important;            /* Text color */
   border: none !important;
   padding: 12px 20px;
   border-radius: 6px;
