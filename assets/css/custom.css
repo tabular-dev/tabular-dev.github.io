@@ -46,11 +46,20 @@ input.search-input:focus{
   font-family: sans-serif !important;
 }
 
+/*
 h2.tito-registration-section-header--heading{
   font-family: "neue-haas-unica" !important;
 }
 
 h1.tito-registration-header--event-title{
+  font-family: "neue-haas-unica" !important;
+}*/
+
+h2 {
+  font-family: "neue-haas-unica" !important;
+}
+
+h1 {
   font-family: "neue-haas-unica" !important;
 }
 
