@@ -53,6 +53,12 @@ tito-widget .tito-submit button {
 
 
 button.tito-submit{
+  background-color: #4274f6 !important;
+  color: #ffffff !important;
+}
+
+button.tito-submit:hover{
+  background-color: #4274f6 !important;
   color: #b3c7fb !important;
 }
 
