@@ -41,7 +41,7 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
-.tito-widget-button {
+button.tito-widget-button {
   background-color: #ff0000 !important; /* Your new color */
   color: #ffffff !important;            /* Text color */
   border: none !important;
