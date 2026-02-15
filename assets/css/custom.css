@@ -41,16 +41,9 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
-/*
-button.tito-submit {
-  background-color: #4274f6;
-  color: #ffffff;
+div.tito-flow{
+  font-family: "neue-haas-unica" !important;
 }
-
-tito-widget .tito-submit button {
-  background-color: #ff0000;
-} */
-
 
 button.tito-submit{
   background-color: #4274f6 !important;
