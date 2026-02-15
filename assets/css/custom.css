@@ -67,6 +67,10 @@ a {
   font-family: "neue-haas-unica" !important;
 }
 
+td, span, input {
+  font-family: "neue-haas-unica" !important;
+}
+
 button.tito-submit{
   background-color: #4274f6 !important;
   color: #ffffff !important;
