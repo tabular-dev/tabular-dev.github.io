@@ -41,19 +41,12 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
-tito-widget button {
-  background: #4274f6;
-}
-
 button.tito-submit {
-  background-color: #ff0000 !important; /* Your new color */
-  color: #000000 !important;            /* Text color */
-  border: none !important;
-  padding: 12px 20px;
-  border-radius: 6px;
+  background-color: #4274f6;
+  color: #ffffff;
 }
 
-tito-widget button:hover {
+button.tito-submit:hover{
   color: #b3c7fb;
 }
 
