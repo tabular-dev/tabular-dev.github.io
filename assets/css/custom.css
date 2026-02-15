@@ -41,6 +41,7 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
+/*
 button.tito-submit {
   background-color: #4274f6;
   color: #ffffff;
@@ -48,10 +49,10 @@ button.tito-submit {
 
 tito-widget .tito-submit button {
   background-color: #ff0000;
-}
+} */
 
 
-.tito-widget-button {
+tito-widget .tito-widget-button {
   background: #ff0000;   /* your brand blue */
   color: #fff;           /* text color */
   border: 0;
@@ -59,10 +60,10 @@ tito-widget .tito-submit button {
   padding: .75rem 1.25rem;
 }
 
-
+/*
 button.tito-submit:hover{
   color: #b3c7fb;
-}
+}*/
 
 tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
