@@ -53,3 +53,9 @@ tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
   fill: #4274f6;
 }
+
+tito-widget .tito-release--decrement-quantity--link 
+{ 
+  background: #ff0000;
+}
+
