@@ -103,15 +103,7 @@ Sg rav idafi nib, us null ama eneanv ehi cula lorem i psumdolo rsitamet conse ct
 
 {{% /steps %}}
 
-
-
-
-
-
-
-
-
-
+<tito-widget event="tabular/tee"></tito-widget>
 
 ## Credits
 
