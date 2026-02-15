@@ -129,7 +129,7 @@ label.tito-address-fields-address-label {
   text-transform: none !important; 
 }
 
-input,select,textarea:focus{
+input:focus,select:focus,textarea:focus{
   outline: 2px solid #b3c7fb !important; 
 }
 
