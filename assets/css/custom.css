@@ -85,6 +85,10 @@ h2.tito-registration-section-header--heading {
   font-weight: normal !important;
 }
 
+td.tito-registration-summary--total {
+  font-weight: normal !important;
+}
+
 div.tito-payment-instructions{
   color: #000000 !important;
   background-color: #b3c7fb !important;
