@@ -105,8 +105,6 @@ Sg rav idafi nib, us null ama eneanv ehi cula lorem i psumdolo rsitamet conse ct
 
 <tito-widget event="tabular/tee"></tito-widget>
 
-<tito-button event="tabular/tee"></tito-button>
-
 ## Credits
 
 Hextra cannot be built without the following tools and inspirations:
