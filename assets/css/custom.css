@@ -73,6 +73,10 @@ td, span, input, p, button, div, h1, h2, h3, a, label {
   font-family: "neue-haas-unica" !important;
 }
 
+th.tito-registration-section-header--heading {
+  font-weight: normal !important;
+}
+
 button.tito-submit{
   background-color: #4274f6 !important;
   color: #ffffff !important;
