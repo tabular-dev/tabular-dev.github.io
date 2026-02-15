@@ -40,3 +40,11 @@ input.search-input:focus{
   outline-offset: 0px;
   box-sizing: border-box;
 }
+
+.tito-widget-button {
+  background-color: #ff0000 !important; /* Your new color */
+  color: #ffffff !important;            /* Text color */
+  border: none !important;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
