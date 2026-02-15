@@ -45,6 +45,14 @@ tito-widget button {
   background: #4274f6;
 }
 
+.tito-widget-button {
+  background-color: #ff0000 !important; /* Your new color */
+  color: #ffffff !important;            /* Text color */
+  border: none !important;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
 tito-widget button:hover {
   color: #b3c7fb;
 }
@@ -52,10 +60,5 @@ tito-widget button:hover {
 tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
   fill: #4274f6;
-}
-
-tito-widget .tito-release--decrement-quantity--link 
-{ 
-  background: #ff0000;
 }
 
