@@ -69,3 +69,41 @@ tito-widget button:focus-visible {
   background-color: #e25500 !important;
 }
 
+
+
+
+
+/* --- The - / + buttons (common patterns) --- */
+tito-widget [class*="quantity"] button,
+tito-widget button[class*="quantity"],
+tito-widget .tito-quantity button {
+  background-color: #ff6600 !important;   /* your brand color */
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  width: 36px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+  text-align: center !important;
+  font-weight: 700 !important;            /* clearer “+ / –” glyphs */
+  padding: 0 !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
+}
+
+/* Hover / focus states for + / – */
+tito-widget [class*="quantity"] button:hover,
+tito-widget [class*="quantity"] button:focus-visible {
+  background-color: #e25500 !important;
+}
+
+/* --- The numeric input itself --- */
+tito-widget [class*="quantity"] input[type="number"],
+tito-widget .tito-quantity input[type="number"] {
+  height: 36px !important;
+  line-height: 36px !important;
+  border: 1px solid #ff6600 !important;
+  border-radius: 6px !important;
+  padding: 0 10px !important;
+}
+
