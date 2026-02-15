@@ -53,7 +53,7 @@ tito-widget .tito-submit button {
 
 
 button.tito-submit{
-  color: #b3c7fb;
+  color: #b3c7fb !important;
 }
 
 tito-widget .tito-release--decrement-quantity--link svg path,
