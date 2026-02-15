@@ -50,6 +50,10 @@ h2.tito-registration-section-header--heading{
   font-family: "neue-haas-unica" !important;
 }
 
+h1.tito-registration-header--event-title{
+  font-family: "neue-haas-unica" !important;
+}
+
 button.tito-submit{
   background-color: #4274f6 !important;
   color: #ffffff !important;
