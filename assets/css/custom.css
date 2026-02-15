@@ -50,3 +50,10 @@ tito-widget button {
   cursor: pointer;
 }
 tito-widget button:hover { background: #e25500; }
+
+
+/* Directly color the glyphs */
+tito-widget .tito-release--decrement-quantity--link svg path,
+tito-widget .tito-release--increment-quantity--link svg path {
+  fill: #ff0000; /* icon color */
+}
