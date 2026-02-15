@@ -73,8 +73,14 @@ td, span, input, p, button, div, h1, h2, h3, a, label {
   font-family: "neue-haas-unica" !important;
 }
 
-th, label {
+th {
   font-weight: normal !important;
+}
+
+label {
+  font-weight: normal !important;
+  text-transform: none !important;
+  font-size: 10pt !important;
 }
 
 span.tito-registration-progress-item--label {
