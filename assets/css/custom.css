@@ -81,7 +81,8 @@ span.tito-registration-progress-item--label {
   font-weight: normal !important;
 }
 
-header {
+div.tito-payment-instructions{
+  color: #000000 !important;
   background-color: #b3c7fb !important;
 }
 
