@@ -43,6 +43,10 @@ input.search-input:focus{
 
 .tito-wrapper,
 .tito-wrapper * {
+  font-family: sans-serif !important;
+}
+
+h2.tito-registration-section-header--heading{
   font-family: "neue-haas-unica" !important;
 }
 
