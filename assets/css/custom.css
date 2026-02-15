@@ -64,7 +64,12 @@ a {
   font-family: "neue-haas-unica" !important;
 } */
 
+/*
 td, span, input, p, button, div, h1, h2, h3, a, label {
+  font-family: "neue-haas-unica" !important;
+}*/
+
+* {
   font-family: "neue-haas-unica" !important;
 }
 
