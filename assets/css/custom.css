@@ -48,3 +48,24 @@ button.tito-widget-button {
   padding: 12px 20px;
   border-radius: 6px;
 }
+
+
+tito-widget button,
+tito-widget .tito-widget-button,
+tito-widget .tito-submit button {
+  background-color: #ff0000 !important;  /* <- your color */
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 12px 18px !important;
+  box-shadow: none !important;
+}
+
+/* Hover / focus states */
+tito-widget button:hover,
+tito-widget .tito-widget-button:hover,
+tito-widget .tito-submit button:hover,
+tito-widget button:focus-visible {
+  background-color: #e25500 !important;
+}
+
