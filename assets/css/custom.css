@@ -94,12 +94,22 @@ div.tito-payment-instructions{
   background-color: #b3c7fb !important;
 }
 
-button.tito-submit,tito-continue-button{
+button.tito-submit{
   background-color: #4274f6 !important;
   color: #ffffff !important;
 }
 
-button.tito-submit,tito-continue-button:hover{
+button.tito-submit:hover{
+  background-color: #4274f6 !important;
+  color: #b3c7fb !important;
+}
+
+button.tito-continue-button{
+  background-color: #4274f6 !important;
+  color: #ffffff !important;
+}
+
+button.tito-continue-button:hover{
   background-color: #4274f6 !important;
   color: #b3c7fb !important;
 }
