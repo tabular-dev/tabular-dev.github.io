@@ -52,18 +52,9 @@ tito-widget .tito-submit button {
 } */
 
 
-tito-widget .tito-widget-button {
-  background: #ff0000;   /* your brand blue */
-  color: #fff;           /* text color */
-  border: 0;
-  border-radius: .5rem;
-  padding: .75rem 1.25rem;
-}
-
-/*
-button.tito-submit:hover{
+button.tito-submit{
   color: #b3c7fb;
-}*/
+}
 
 tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
