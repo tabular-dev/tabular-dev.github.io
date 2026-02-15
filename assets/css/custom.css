@@ -41,11 +41,6 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
-.tito-wrapper,
-.tito-wrapper * {
-  font-family: sans-serif !important;
-}
-
 /*
 h2.tito-registration-section-header--heading{
   font-family: "neue-haas-unica" !important;
@@ -54,6 +49,8 @@ h2.tito-registration-section-header--heading{
 h1.tito-registration-header--event-title{
   font-family: "neue-haas-unica" !important;
 }*/
+
+/*
 
 h2 {
   font-family: "neue-haas-unica" !important;
@@ -65,9 +62,9 @@ h1 {
 
 a {
   font-family: "neue-haas-unica" !important;
-}
+} */
 
-td, span, input {
+td, span, input, p, button, div, h1, h2, h3, a {
   font-family: "neue-haas-unica" !important;
 }
 
