@@ -77,6 +77,10 @@ th {
   font-weight: normal !important;
 }
 
+span.tito-registration-progress-item--label {
+  font-weight: normal !important;
+}
+
 button.tito-submit{
   background-color: #4274f6 !important;
   color: #ffffff !important;
