@@ -41,7 +41,8 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
-div.tito-flow{
+.tito-wrapper,
+.tito-wrapper * {
   font-family: "neue-haas-unica" !important;
 }
 
