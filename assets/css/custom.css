@@ -41,69 +41,94 @@ input.search-input:focus{
   box-sizing: border-box;
 }
 
-button.tito-widget-button {
-  background-color: #ff0000 !important; /* Your new color */
-  color: #ffffff !important;            /* Text color */
-  border: none !important;
-  padding: 12px 20px;
-  border-radius: 6px;
+/* 1) Scope everything to tito-widget so styles don't leak */
+tito-widget {
+  --tito-brand: #ff0000;     /* <-- your brand color */
+  --tito-brand-hover: #e25500;
+  --tito-on-brand: #ffffff;  /* text/icon color on brand */
+  --tito-border: #e6e6e6;
+  --tito-radius: 999px;      /* round buttons */
+  --tito-size: 40px;         /* diameter of +/- buttons */
+  --tito-font-weight: 700;
 }
 
-
-tito-widget button,
-tito-widget .tito-widget-button,
-tito-widget .tito-submit button {
-  background-color: #ff0000 !important;  /* <- your color */
-  color: #ffffff !important;
-  border: none !important;
-  border-radius: 6px !important;
-  padding: 12px 18px !important;
-  box-shadow: none !important;
+/* 2) Style the numeric input in the quantity control row */
+tito-widget input[type="number"] {
+  height: var(--tito-size);
+  line-height: var(--tito-size);
+  padding: 0 12px;
+  border: 1px solid var(--tito-border);
+  border-radius: 8px;
+  font-size: 16px;
 }
 
-/* Hover / focus states */
-tito-widget button:hover,
-tito-widget .tito-widget-button:hover,
-tito-widget .tito-submit button:hover,
-tito-widget button:focus-visible {
-  background-color: #e25500 !important;
+/* Remove native spinners for a consistent look */
+tito-widget input[type="number"]::-webkit-outer-spin-button,
+tito-widget input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+tito-widget input[type="number"] { -moz-appearance: textfield; }
+
+/* 3) Catch the +/- buttons next to the number input
+      We use multiple resilient patterns:
+      - Buttons adjacent to a number input
+      - Buttons with common ARIA labels ("Increase", "Decrease", "+", "−")
+*/
+tito-widget input[type="number"] + button,
+tito-widget button + input[type="number"],
+tito-widget button[aria-label*="increase" i],
+tito-widget button[aria-label*="decrease" i],
+tito-widget button[aria-label="+"] ,
+tito-widget button[aria-label="-"] {
+  width: var(--tito-size);
+  height: var(--tito-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--tito-radius);
+  border: none;
+  background-color: var(--tito-brand);
+  color: var(--tito-on-brand);
+  font-weight: var(--tito-font-weight);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: none;
+  /* If Tito injects its own button styles, this helps you win the cascade */
+  /* Remove !important if you later load the widget without CSS (see note below) */
+  background-image: none !important;
+  background-clip: padding-box !important;
 }
 
-
-
-
-
-/* --- The - / + buttons (common patterns) --- */
-tito-widget [class*="quantity"] button,
-tito-widget button[class*="quantity"],
-tito-widget .tito-quantity button {
-  background-color: #ff6600 !important;   /* your brand color */
-  color: #ffffff !important;
-  border: none !important;
-  border-radius: 6px !important;
-  width: 36px !important;
-  height: 36px !important;
-  line-height: 36px !important;
-  text-align: center !important;
-  font-weight: 700 !important;            /* clearer “+ / –” glyphs */
-  padding: 0 !important;
-  box-shadow: none !important;
-  cursor: pointer !important;
+/* 4) Hover / focus states for +/- buttons */
+tito-widget input[type="number"] + button:hover,
+tito-widget button + input[type="number"]:hover,
+tito-widget button[aria-label*="increase" i]:hover,
+tito-widget button[aria-label*="decrease" i]:hover,
+tito-widget button[aria-label="+"]:hover,
+tito-widget button[aria-label="-"]:hover,
+tito-widget input[type="number"] + button:focus-visible,
+tito-widget button + input[type="number"]:focus-visible,
+tito-widget button[aria-label*="increase" i]:focus-visible,
+tito-widget button[aria-label*="decrease" i]:focus-visible,
+tito-widget button[aria-label="+"]:focus-visible,
+tito-widget button[aria-label="-"]:focus-visible {
+  background-color: var(--tito-brand-hover);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
-/* Hover / focus states for + / – */
-tito-widget [class*="quantity"] button:hover,
-tito-widget [class*="quantity"] button:focus-visible {
-  background-color: #e25500 !important;
+/* 5) If the +/- are built with <span> icons inside the button */
+tito-widget input[type="number"] + button > *,
+tito-widget button + input[type="number"] > *,
+tito-widget button[aria-label*="increase" i] > *,
+tito-widget button[aria-label*="decrease" i] > * {
+  pointer-events: none; /* keep clicks on the button, not the child */
 }
 
-/* --- The numeric input itself --- */
-tito-widget [class*="quantity"] input[type="number"],
-tito-widget .tito-quantity input[type="number"] {
-  height: 36px !important;
-  line-height: 36px !important;
-  border: 1px solid #ff6600 !important;
-  border-radius: 6px !important;
-  padding: 0 10px !important;
+/* 6) Optional: tighten up the inline layout of quantity row */
+tito-widget .tito-quantity,
+tito-widget [class*="quantity"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
