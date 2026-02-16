@@ -149,3 +149,12 @@ tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
   fill: #4274f6;
 }
+
+.hextra-footer > div:first-of-type {
+  display: none !important;
+}
+
+.hextra-custom-footer {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
