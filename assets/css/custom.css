@@ -149,8 +149,3 @@ tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
   fill: #4274f6;
 }
-
-.hextra-footer .hx-py-12 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-}
