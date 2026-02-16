@@ -77,9 +77,13 @@ td, span, input, p, button, div, h1, h2, h3, a, label {
 a.tito-vat-number-toggle {
   color: inherit !important;          /* removes Tito's blue */
   text-decoration: underline !important; /* adds underline */
-  cursor: pointer;                    /* optional: keeps it clickable */
+  /* cursor: pointer;  */                  /* optional: keeps it clickable */
 }
 
+a.tito-vat-number-toggle:hover {
+  color: #b3c7fb !important;          /* removes Tito's blue */
+  text-decoration: underline !important; /* adds underline */
+}
 
 th {
   font-weight: normal !important;
