@@ -159,4 +159,7 @@ tito-widget .tito-release--increment-quantity--link svg path {
   padding-bottom: 2rem !important;
   */
   height: 4rem !important;
+  align-items: center !important;
 }
+
+
