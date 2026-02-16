@@ -73,6 +73,14 @@ td, span, input, p, button, div, h1, h2, h3, a, label {
   font-family: "neue-haas-unica" !important;
 }
 
+
+a.tito-vat-number-toggle {
+  color: inherit !important;          /* removes Tito's blue */
+  text-decoration: underline !important; /* adds underline */
+  cursor: pointer;                    /* optional: keeps it clickable */
+}
+
+
 th {
   font-weight: normal !important;
 }
