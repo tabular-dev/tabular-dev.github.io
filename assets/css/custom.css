@@ -150,6 +150,6 @@ tito-widget .tito-release--increment-quantity--link svg path {
   fill: #4274f6;
 }
 
-tito-widget .tito-close-x svg path {
-  fill: #4274f6;
-} 
+.tito-close-x {
+  color: #b3c7fb !important;   /* any color you want */
+}
