@@ -145,6 +145,19 @@ input:focus,select:focus,textarea:focus{
   outline: 2px solid #b3c7fb !important; 
 }
 
+/* Stripe iframe wrapper */
+.InputElement {
+  border: 1px solid #ccc !important;
+  padding: 6px !important;
+  border-radius: 4px !important;
+}
+
+/* When the iframe receives focus */
+.InputElement--focus {
+  border-color: #b3c7fb !important;
+  box-shadow: 0 0 0 2px #b3c7fb33 !important;
+}
+
 tito-widget .tito-release--decrement-quantity--link svg path,
 tito-widget .tito-release--increment-quantity--link svg path {
   fill: #4274f6;
